@@ -17,10 +17,7 @@ const getAllProductsPaths = async(config: ApiConfig): Promise<ReturnType> => {
           slug: handle
         }
       })
- return {
-     products
-        
- }
+ return { products}
 
 }
 
