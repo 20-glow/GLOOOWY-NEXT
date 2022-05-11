@@ -34,8 +34,10 @@ export default function Home({
       </Grid>
       <Hero
        headline="GLOOOWY Brand"
-       description="We strive to be a global leader in fashion-knit and fashion outerwear 
-                    by empowering innovation and design to provide total customer satisfaction. "
+       description="We strive to be a global leader in fashion-knit and fashion outerwear by empowering innovation and design to provide total customer satisfaction.
+                    To innovate, to lead, to enhance, to provide best-value products and services to global customers. 
+                    To make a difference through our branding to stay ahead of fashion trends,
+                    market changes and the latest technology."
       />
       <Marquee>
         { products.slice(0,3).map(product =>
